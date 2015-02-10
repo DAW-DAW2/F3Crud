@@ -1,6 +1,6 @@
 
-CREATE DATABASE IF NOT EXISTS F3Crud;
-use F3Crud;
+CREATE DATABASE IF NOT EXISTS F3Examen;
+use F3Examen
 
 CREATE TABLE IF NOT EXISTS users (
 	id		int(11) NOT NULL AUTO_INCREMENT,
@@ -12,7 +12,12 @@ CREATE TABLE IF NOT EXISTS users (
 ) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=21 ;
 
 INSERT INTO users (id, name, email, mobile, address) VALUES
-(1, 'Aaa Mii', 'al@min.com', '6546464', 'Dhaka,Bangladesh'),
-(2, 'Saa Hee', 's@hed.com', '987979', 'Dhaka, Bangladesh'),
-(3, 'Maa Muu', 'm@mun.com', '646465', 'Dhaka,Bangladesh'),
-(9, 'Foo Saa', 'f@sa.com', '1234556', 'Dhaka, Bangladesh.');
+(1, 'German', 'al@min.com', '6546464', 'Valencia'),
+(2, 'David', 's@hed.com', '987979', 'Valencia'),
+(3, 'Joan', 'm@mun.com', '646465', 'Valencia'),
+(4, 'Nacho', 'm@mun.com', '646465', 'Valencia'),
+(5, 'Joaquin', 'm@mun.com', '646465', 'Valencia'),
+(6, 'Carlos', 'm@mun.com', '646465', 'Valencia'),
+(7, 'Borja', 'm@mun.com', '646465', 'Valencia'),
+(8, 'Bernat', 'm@mun.com', '646465', 'Valencia'),
+(9, 'Javier', 'f@sa.com', '1234556', 'Valencia');
